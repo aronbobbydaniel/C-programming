@@ -12,7 +12,8 @@ int main(){
   struct empolyee s[limit];
   for(int i=0;i<limit;i++){
     printf("Enter the Name:");
-    scanf("%s",s[i].name);
+    getchar();
+    fgets(s[i].name,sizeof(s[i].name),stdin);
     printf("Enter the ID number:");
     scanf("%d",&s[i].ID);
     printf("Enter the Salary:");
