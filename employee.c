@@ -18,12 +18,13 @@ int main(){
     printf("Enter the Salary:");
     scanf("%f",&s[i].salary);
     }
-  printf(" \n The Employee Details are:");
+  
   for(int i=0;i<limit;i++){
+    printf(" \n The Employee Details are:\n");
     
     printf("\n Name is:%s",s[i].name);
     printf("\n ID Number is:%d",s[i].ID);
     printf("\n Salary is:%.2f",s[i].salary);
+    printf("\n-----------------");
   }
-return 0;
-}    
+return 0; 
