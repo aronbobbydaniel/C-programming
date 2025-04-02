@@ -27,4 +27,5 @@ int main(){
     printf("\n Salary is:%.2f",s[i].salary);
     printf("\n-----------------");
   }
-return 0; 
+return 0;
+}    
